@@ -1,0 +1,17 @@
+:root {
+  --drips-blue: #1672FD;
+  --drips-dark: #353535;
+  --drips-navy: #1E59AF;
+  --drips-ice: #E8F1FF;
+  --accent-mint: #6EE0AA;
+  --accent-purple: #986BFC;
+  --accent-teal: #05C6C6;
+  --accent-coral: #FD7168;
+  --accent-gold: #FFCB3E;
+  --white: #FFFFFF;
+  --gray-lightest: #F9F9F9;
+  --gray-border: #EAEEEE;
+  --gray-text: #858D99;
+  --gray-charcoal: #444444;
+  --font-primary: "Poppins", "Helvetica Neue", Arial, sans-serif;
+}

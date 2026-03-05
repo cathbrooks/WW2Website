@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-primary: #1672FD;
+  --color-bg: #FFFFFF;
+  --color-bg-alt: #E8F1FF;
+  --color-surface: #FFFFFF;
+  --color-text: #353535;
+  --color-text-muted: #858D99;
+  --color-accent: #6EE0AA;
+  --color-border: #EAEEEE;
+  --color-results-bg: #F9F9F9;
+  --color-results-accent: #6EE0AA;
+}
+
+body {
+  color: var(--color-text);
+  background-color: var(--color-bg);
+}
+
+@keyframes gradient-x {
+  0%, 100% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+}
+
+.animate-gradient-x {
+  animation: gradient-x 4s ease-in-out infinite;
+}

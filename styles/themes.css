@@ -1,0 +1,259 @@
+/* ─── Theme 1: Horizon ─── */
+[data-theme="1"] {
+  --color-primary: #1672FD;
+  --color-bg: #FFFFFF;
+  --color-bg-alt: #E8F1FF;
+  --color-surface: #FFFFFF;
+  --color-text: #353535;
+  --color-text-muted: #858D99;
+  --color-accent: #6EE0AA;
+  --color-border: #EAEEEE;
+  --color-results-bg: #F9F9F9;
+  --color-results-accent: #6EE0AA;
+}
+[data-theme="1"][data-mode="dark"] {
+  --color-primary: #4A9DFF;
+  --color-bg: #0D1B2A;
+  --color-bg-alt: #162438;
+  --color-surface: #1A2F44;
+  --color-text: #E8EDF5;
+  --color-text-muted: #8A9BB5;
+  --color-accent: #6EE0AA;
+  --color-border: #2A3F55;
+  --color-results-bg: #162438;
+  --color-results-accent: #6EE0AA;
+}
+
+/* ─── Theme 2: Midnight ─── */
+[data-theme="2"] {
+  --color-primary: #4A9DFF;
+  --color-bg: #EEF2FF;
+  --color-bg-alt: #E0E8FF;
+  --color-surface: #F5F7FF;
+  --color-text: #1A1A4A;
+  --color-text-muted: #5A6080;
+  --color-accent: #6EE0AA;
+  --color-border: #C5CFEE;
+  --color-results-bg: #E8EEFF;
+  --color-results-accent: #4A9DFF;
+}
+[data-theme="2"][data-mode="dark"] {
+  --color-primary: #4A9DFF;
+  --color-bg: #1A1A2E;
+  --color-bg-alt: #252540;
+  --color-surface: #252540;
+  --color-text: #E8E8EC;
+  --color-text-muted: #9C9FA1;
+  --color-accent: #6EE0AA;
+  --color-border: #3A3A5C;
+  --color-results-bg: #252540;
+  --color-results-accent: #6EE0AA;
+}
+
+/* ─── Theme 3: Command ─── */
+[data-theme="3"] {
+  --color-primary: #1A9E6A;
+  --color-bg: #F0FFF6;
+  --color-bg-alt: #E0F5EA;
+  --color-surface: #FFFFFF;
+  --color-text: #1A3028;
+  --color-text-muted: #4A7060;
+  --color-accent: #1A9E6A;
+  --color-border: #B8E6CF;
+  --color-results-bg: #E0F5EA;
+  --color-results-accent: #1A9E6A;
+}
+[data-theme="3"][data-mode="dark"] {
+  --color-primary: #6EE0AA;
+  --color-bg: #0D1F17;
+  --color-bg-alt: #1A2F24;
+  --color-surface: #1A2F24;
+  --color-text: #E8FCEF;
+  --color-text-muted: #6EE0AA;
+  --color-accent: #6EE0AA;
+  --color-border: #2E4A3A;
+  --color-results-bg: #1A2F24;
+  --color-results-accent: #6EE0AA;
+}
+
+/* ─── Theme 4: Breath ─── */
+[data-theme="4"] {
+  --color-primary: #858D99;
+  --color-bg: #FFFFFF;
+  --color-bg-alt: #FFFFFF;
+  --color-surface: #FFFFFF;
+  --color-text: #353535;
+  --color-text-muted: #9C9FA1;
+  --color-accent: #05C6C6;
+  --color-border: #F2F2F2;
+  --color-results-bg: #FAFAFA;
+  --color-results-accent: #05C6C6;
+}
+[data-theme="4"][data-mode="dark"] {
+  --color-primary: #A0AAB8;
+  --color-bg: #1C1C1E;
+  --color-bg-alt: #2C2C2E;
+  --color-surface: #2C2C2E;
+  --color-text: #F2F2F7;
+  --color-text-muted: #8E8E93;
+  --color-accent: #05C6C6;
+  --color-border: #3C3C3E;
+  --color-results-bg: #2C2C2E;
+  --color-results-accent: #05C6C6;
+}
+
+/* ─── Theme 5: Punch ─── */
+[data-theme="5"] {
+  --color-primary: #1672FD;
+  --color-bg: #FFFFFF;
+  --color-bg-alt: #F4F4F4;
+  --color-surface: #FFFFFF;
+  --color-text: #000000;
+  --color-text-muted: #444444;
+  --color-accent: #FD7168;
+  --color-border: #000000;
+  --color-results-bg: #F4F4F4;
+  --color-results-accent: #FD7168;
+}
+[data-theme="5"][data-mode="dark"] {
+  --color-primary: #4A9DFF;
+  --color-bg: #0A0A0A;
+  --color-bg-alt: #1A1A1A;
+  --color-surface: #141414;
+  --color-text: #FFFFFF;
+  --color-text-muted: #AAAAAA;
+  --color-accent: #FD7168;
+  --color-border: #444444;
+  --color-results-bg: #1A1A1A;
+  --color-results-accent: #FD7168;
+}
+
+/* ─── Theme 6: Mist ─── */
+[data-theme="6"] {
+  --color-primary: #986BFC;
+  --color-bg: #FAEBFF;
+  --color-bg-alt: #F5E0FF;
+  --color-surface: #FFFFFF;
+  --color-text: #444444;
+  --color-text-muted: #6B6B80;
+  --color-accent: #986BFC;
+  --color-border: #E8D4FF;
+  --color-results-bg: #FAEBFF;
+  --color-results-accent: #986BFC;
+}
+[data-theme="6"][data-mode="dark"] {
+  --color-primary: #B893FF;
+  --color-bg: #1A0B2E;
+  --color-bg-alt: #2A1540;
+  --color-surface: #221038;
+  --color-text: #EDE0FF;
+  --color-text-muted: #B09ECF;
+  --color-accent: #986BFC;
+  --color-border: #3D2060;
+  --color-results-bg: #2A1540;
+  --color-results-accent: #B893FF;
+}
+
+/* ─── Theme 7: Monochrome ─── */
+[data-theme="7"] {
+  --color-primary: #1672FD;
+  --color-bg: #FFFFFF;
+  --color-bg-alt: #F2F2F2;
+  --color-surface: #FFFFFF;
+  --color-text: #000000;
+  --color-text-muted: #666666;
+  --color-accent: #000000;
+  --color-border: #000000;
+  --color-results-bg: #000000;
+  --color-results-accent: #FFFFFF;
+}
+[data-theme="7"][data-mode="dark"] {
+  --color-primary: #4A9DFF;
+  --color-bg: #121212;
+  --color-bg-alt: #1E1E1E;
+  --color-surface: #1E1E1E;
+  --color-text: #FFFFFF;
+  --color-text-muted: #888888;
+  --color-accent: #FFFFFF;
+  --color-border: #FFFFFF;
+  --color-results-bg: #FFFFFF;
+  --color-results-accent: #121212;
+}
+
+/* ─── Theme 8: Ember ─── */
+[data-theme="8"] {
+  --color-primary: #FD7168;
+  --color-bg: #FFF5F4;
+  --color-bg-alt: #FFE9E9;
+  --color-surface: #FFFFFF;
+  --color-text: #353535;
+  --color-text-muted: #858D99;
+  --color-accent: #FFCB3E;
+  --color-border: #F5DDD8;
+  --color-results-bg: #FCF6E8;
+  --color-results-accent: #FD7168;
+}
+[data-theme="8"][data-mode="dark"] {
+  --color-primary: #FF8C84;
+  --color-bg: #1E0F0C;
+  --color-bg-alt: #2D1713;
+  --color-surface: #241210;
+  --color-text: #FFE8E4;
+  --color-text-muted: #C49080;
+  --color-accent: #FFCB3E;
+  --color-border: #4A2820;
+  --color-results-bg: #2D1713;
+  --color-results-accent: #FF8C84;
+}
+
+/* ─── Theme 9: Reef ─── */
+[data-theme="9"] {
+  --color-primary: #05C6C6;
+  --color-bg: #E3FCEF;
+  --color-bg-alt: #DFF4F4;
+  --color-surface: #FFFFFF;
+  --color-text: #1A2F24;
+  --color-text-muted: #444444;
+  --color-accent: #05C6C6;
+  --color-border: #B8E6E6;
+  --color-results-bg: #DFF4F4;
+  --color-results-accent: #05C6C6;
+}
+[data-theme="9"][data-mode="dark"] {
+  --color-primary: #05E0E0;
+  --color-bg: #071F1F;
+  --color-bg-alt: #0D2E2E;
+  --color-surface: #0A2828;
+  --color-text: #C8F5F0;
+  --color-text-muted: #60A8A0;
+  --color-accent: #05C6C6;
+  --color-border: #1A4848;
+  --color-results-bg: #0D2E2E;
+  --color-results-accent: #05E0E0;
+}
+
+/* ─── Theme 10: Broadsheet ─── */
+[data-theme="10"] {
+  --color-primary: #353535;
+  --color-bg: #FFFFFF;
+  --color-bg-alt: #F9F9F9;
+  --color-surface: #FFFFFF;
+  --color-text: #000000;
+  --color-text-muted: #444444;
+  --color-accent: #1E59AF;
+  --color-border: #E0DDDA;
+  --color-results-bg: #F2F2F2;
+  --color-results-accent: #1E59AF;
+}
+[data-theme="10"][data-mode="dark"] {
+  --color-primary: #6A9EE0;
+  --color-bg: #111111;
+  --color-bg-alt: #1A1A1A;
+  --color-surface: #1A1A1A;
+  --color-text: #F0F0F0;
+  --color-text-muted: #888888;
+  --color-accent: #4A80D0;
+  --color-border: #444444;
+  --color-results-bg: #1A1A1A;
+  --color-results-accent: #6A9EE0;
+}

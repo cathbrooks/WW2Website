@@ -131,7 +131,7 @@ export const testimonialVideos: TestimonialVideo[] = [
     videoUrl: "/videos/JosephEnglish.mp4",
     languages: [
       { code: "en", label: "English", videoUrl: "https://youtu.be/hh6EzlrfPrE" },
-      { code: "ma", label: "Mandarin", videoUrl: "https://youtu.be/90dVL4_K5qM" },
+      { code: "ma", label: "Mandarin", videoUrl: "https://youtu.be/QmSJcvHVvGk" },
       { code: "日本", label: "Japanese", videoUrl: "https://youtu.be/PBttuT2c6JI" },
       { code: "es", label: "Spanish", videoUrl: "https://youtu.be/YjHeoN4qfbM" },
     ],

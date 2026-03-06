@@ -55,6 +55,24 @@ export function Results() {
                 </tr>
               ))}
             </tbody>
+            <tfoot>
+              <tr className="bg-[var(--color-bg-alt)] border-t-2 border-[var(--color-primary)]">
+                <td colSpan={2} className="py-3 px-4 text-sm font-bold uppercase tracking-wide text-[var(--color-text)]">
+                  Total (est.)
+                </td>
+                <td className="py-3 px-4 text-sm font-bold text-[var(--color-text)]">
+                  ~1,800 hrs
+                  <span className="block text-xs font-normal text-[var(--color-text-muted)]">~300 days</span>
+                </td>
+                <td className="py-3 px-4 text-sm font-bold text-[var(--color-results-accent)]">
+                  ~72 hrs
+                  <span className="block text-xs font-normal text-[var(--color-text-muted)]">~12 days</span>
+                </td>
+                <td className="py-3 px-4 text-sm font-bold text-[var(--color-results-accent)]">
+                  ~25x
+                </td>
+              </tr>
+            </tfoot>
           </table>
           <p className="text-xs text-[var(--color-text-muted)] opacity-60 mt-2 px-1">
             * 1 day = 6-hour work day
@@ -63,12 +81,7 @@ export function Results() {
 
         {/* Summary cards */}
         <div className="text-center mb-8">
-          <h3 className="text-xl font-bold text-[var(--color-text)] mb-2">
-            Our Goal
-          </h3>
-          <p className="text-[var(--color-text-muted)] max-w-2xl mx-auto mb-8">
-            {resultsSummary.subtitle}
-          </p>
+
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4 max-w-3xl mx-auto">
             <div className="p-6 rounded-xl bg-[var(--color-surface)] border border-[var(--color-border)]">
               <p className="text-xs font-semibold uppercase tracking-wider text-[var(--color-text-muted)] mb-1">
@@ -80,11 +93,6 @@ export function Results() {
               <p className="text-sm text-[var(--color-text-muted)]">
                 {resultsSummary.oldWayHours}
               </p>
-              <div className="mt-3 pt-3 border-t border-[var(--color-border)]">
-                <p className="text-xs font-semibold uppercase tracking-wider text-[var(--color-text-muted)] mb-1">Of which</p>
-                <p className="text-base font-bold text-[var(--color-text)]">156 hrs <span className="text-[var(--color-text-muted)] font-normal">/</span> ~5.2 weeks</p>
-                <p className="text-xs text-[var(--color-text-muted)] mt-0.5">were QA &amp; development</p>
-              </div>
             </div>
             <div className="p-6 rounded-xl bg-[var(--color-surface)] border border-[var(--color-border)]">
               <p className="text-xs font-semibold uppercase tracking-wider text-[var(--color-text-muted)] mb-1">
@@ -96,11 +104,6 @@ export function Results() {
               <p className="text-sm text-[var(--color-text-muted)]">
                 {resultsSummary.newWayHours}
               </p>
-              <div className="mt-3 pt-3 border-t border-[var(--color-border)]">
-                <p className="text-xs font-semibold uppercase tracking-wider text-[var(--color-text-muted)] mb-1">Of which</p>
-                <p className="text-base font-bold text-[var(--color-text)]">~6 hrs <span className="text-[var(--color-text-muted)] font-normal">/</span> 1 day</p>
-                <p className="text-xs text-[var(--color-text-muted)] mt-0.5">est. QA &amp; development</p>
-              </div>
             </div>
             <div className="relative p-6 rounded-xl bg-[var(--color-surface)] border-2 border-[var(--color-results-accent)] flex flex-col items-center justify-center text-center min-h-full overflow-hidden">
               {/* Firework particles */}
@@ -132,7 +135,7 @@ export function Results() {
                 {resultsSummary.timeSavedHours}
               </p>
               <p className="relative text-sm text-[var(--color-text-muted)] mt-2">
-                892 developer hours
+                ~1,728 developer hours
               </p>
             </div>
           </div>

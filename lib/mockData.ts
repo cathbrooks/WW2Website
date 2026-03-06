@@ -142,14 +142,16 @@ export const resultSteps: ResultStep[] = [
   { id: "r08", role: "Planning", task: "Single Complex Work Order", oldWay: "2.5–3.5 hrs / ~0.4–0.6 days", newWay: "2 min", speedup: "~75–105x" },
   { id: "r09", role: "Planning", task: "Confusion Resolution", oldWay: "12 hours (12 people x 1 hour) / 2 days", newWay: "30 sec", speedup: "~1,440x" },
   { id: "r10", role: "Development", task: "Backend Scaffolding", oldWay: "78 hrs / ~13 days", newWay: "30 min", speedup: "156x" },
+  { id: "r11", role: "Development", task: "Development", oldWay: "952 hrs / ~32 weeks", newWay: "60 hrs / 10 days", speedup: "~16x" },
+  { id: "r12", role: "Development", task: "QA & Development", oldWay: "156 hrs / ~5.2 weeks", newWay: "~6 hrs / 1 day", speedup: "~26x" },
 ];
 
 export const resultsSummary: ResultsSummary = {
-  oldWayWeeks: "~32 weeks",
-  oldWayHours: "952 developer hours",
-  newWayDays: "10 days",
-  newWayHours: "60 developer hours",
-  timeSavedHours: "~30 weeks",
+  oldWayWeeks: "~300 days",
+  oldWayHours: "~1,800 developer hours",
+  newWayDays: "~12 days",
+  newWayHours: "~72 developer hours",
+  timeSavedHours: "~1,728 hrs",
   subtitle:
     "What would normally take a team of 10 over three months — we set out to build in three days.",
 };

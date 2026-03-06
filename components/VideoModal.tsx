@@ -34,8 +34,20 @@ export function VideoModal({
     }
   }, [video, initialLangCode]);
 
-  const videoUrl = activeLang?.videoUrl || video.videoUrl;
+  const rawUrl = activeLang?.videoUrl || video.videoUrl;
   const hasMultipleLanguages = video.languages.length > 1;
+
+  function toEmbedUrl(url: string): string | null {
+    const shortMatch = url.match(/youtu\.be\/([^?&]+)/);
+    if (shortMatch) return `https://www.youtube.com/embed/${shortMatch[1]}`;
+    const longMatch = url.match(/youtube\.com\/watch\?.*v=([^&]+)/);
+    if (longMatch) return `https://www.youtube.com/embed/${longMatch[1]}`;
+    return null;
+  }
+
+  const embedUrl = toEmbedUrl(rawUrl);
+  const isYouTube = !!embedUrl;
+  const videoUrl = rawUrl;
 
   useEffect(() => {
     const handleEscape = (e: KeyboardEvent) => {
@@ -77,14 +89,25 @@ export function VideoModal({
         </button>
 
         <div className="aspect-video bg-black relative">
-          <video
-            key={videoUrl}
-            src={videoUrl}
-            title={video.title}
-            className="w-full h-full"
-            controls
-            autoPlay
-          />
+          {isYouTube ? (
+            <iframe
+              key={embedUrl!}
+              src={`${embedUrl!}?autoplay=1`}
+              title={video.title}
+              className="w-full h-full"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            />
+          ) : (
+            <video
+              key={videoUrl}
+              src={videoUrl}
+              title={video.title}
+              className="w-full h-full"
+              controls
+              autoPlay
+            />
+          )}
           {hasMultipleLanguages && (
             <div
               ref={dropdownRef}

@@ -94,6 +94,8 @@ export const testimonialVideos: TestimonialVideo[] = [
       { code: "en", label: "English", videoUrl: "https://youtu.be/OYmBJD1QHS8" },
       { code: "ma", label: "Mandarin", videoUrl: "https://youtu.be/eh1V5IyDjDw" },
       { code: "日本", label: "Japanese", videoUrl: "https://youtu.be/RsxhiuABj0s" },
+      { code: "es", label: "Spanish", videoUrl: "https://youtu.be/04lvk_e42Ro" },
+
     ],
   },
   {
@@ -102,9 +104,11 @@ export const testimonialVideos: TestimonialVideo[] = [
     thumbnailUrl: "/thumbnails/thumb2.jpg",
     videoUrl: "/videos/ParkerEnglish.mp4",
     languages: [
-      { code: "en", label: "English", videoUrl: "/videos/ParkerEnglish.mp4" },
-      { code: "ma", label: "Mandarin", videoUrl: "/videos/ParkerMandarin.mp4" },
+      { code: "en", label: "English", videoUrl: "https://youtu.be/yAhjQaW6plc" },
+      { code: "ma", label: "Mandarin", videoUrl: "https://youtu.be/zl06neEIkPw" },
       { code: "日本", label: "Japanese", videoUrl: "https://youtu.be/mw3MtfBS49k" },
+      { code: "es", label: "Spanish", videoUrl: "https://youtu.be/vGvLj9MIwcI" },
+
     ],
   },
   {
@@ -113,9 +117,11 @@ export const testimonialVideos: TestimonialVideo[] = [
     thumbnailUrl: "/thumbnails/thumb3.jpg",
     videoUrl: "/videos/MarshallEnglish.mp4",
     languages: [
-      { code: "en", label: "English", videoUrl: "/videos/MarshallEnglish.mp4" },
+      { code: "en", label: "English", videoUrl: "https://youtu.be/7hqjsCxj6VA" },
       { code: "ma", label: "Mandarin", videoUrl: "https://youtu.be/UgyvY5IclQk" },
       { code: "日本", label: "Japanese", videoUrl: "https://youtu.be/TteEHnSeueM" },
+      { code: "es", label: "Spanish", videoUrl: "https://youtu.be/MPrSnRAWNnY" },
+
     ],
   },
   {
@@ -126,7 +132,8 @@ export const testimonialVideos: TestimonialVideo[] = [
     languages: [
       { code: "en", label: "English", videoUrl: "https://youtu.be/hh6EzlrfPrE" },
       { code: "ma", label: "Mandarin", videoUrl: "https://youtu.be/90dVL4_K5qM" },
-      { code: "日本", label: "Japanese", videoUrl: "/videos/JosephJapanese.mp4" },
+      { code: "日本", label: "Japanese", videoUrl: "https://youtu.be/PBttuT2c6JI" },
+      { code: "es", label: "Spanish", videoUrl: "https://youtu.be/YjHeoN4qfbM" },
     ],
   },
 ];
